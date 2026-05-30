@@ -1,0 +1,47 @@
+[
+  {
+    "prompt_inputs": {
+      "module": "Payment Gateway",
+      "severity": "Critical",
+      "actual_vs_expected": "The user is unable to complete the purchase and receives an error message 'Payment processing failed' instead of being redirected to the order confirmation page",
+      "steps": "1. Log in to the e-commerce website, 2. Add a product to the cart, 3. Proceed to checkout, 4. Select the credit card payment option, 5. Enter valid credit card details and submit the payment"
+    },
+    "solution_criteria": [
+      "Clearly describes the defect",
+      "Provides accurate steps to reproduce the issue",
+      "Includes relevant environment details"
+    ],
+    "task_description": "Write a clear, concise bug report for a functional defect found during web application testing",
+    "scenario": "Testing with a real-world e-commerce website scenario: The user is unable to complete a purchase due to a malfunctioning payment gateway, and the report should include steps to reproduce, expected vs. actual results, and environment details."
+  },
+  {
+    "prompt_inputs": {
+      "module": "Social Media Platform - User Engagement",
+      "severity": "major",
+      "actual_vs_expected": "The 'like' feature is not updating in real-time, causing users to see inconsistent like counts. Expected behavior is for the like count to update immediately after a user clicks the 'like' button.",
+      "steps": "1. Log in to the social media platform, 2. Navigate to a post, 3. Click the 'like' button, 4. Observe the like count, 5. Repeat steps 3-4 from different user accounts to verify the issue persists across accounts."
+    },
+    "solution_criteria": [
+      "Clearly describes the bug and its impact on user experience",
+      "Provides step-by-step reproduction instructions",
+      "Includes a comparison of actual vs expected behavior"
+    ],
+    "task_description": "Write a clear, concise bug report for a functional defect found during web application testing",
+    "scenario": "Testing with a hypothetical social media platform bug: The 'like' feature is not updating in real-time, causing inconsistent user experiences, and the report should clearly describe the issue, provide troubleshooting steps taken, and suggest potential fixes."
+  },
+  {
+    "prompt_inputs": {
+      "module": "Online Banking Transaction History",
+      "severity": "Major",
+      "actual_vs_expected": "The user is unable to view their transaction history due to a JavaScript error, whereas they expect to see a list of all their transactions.",
+      "steps": "1. Log in to the online banking system, 2. Navigate to the Transaction History page, 3. The JavaScript error occurs, and the transaction history is not displayed."
+    },
+    "solution_criteria": [
+      "Clearly describes the JavaScript error",
+      "Includes relevant browser and system details",
+      "Provides steps to reproduce the issue"
+    ],
+    "task_description": "Write a clear, concise bug report for a functional defect found during web application testing",
+    "scenario": "Testing with a simulated online banking system issue: A user is having trouble viewing their transaction history due to a JavaScript error, and the report should include error messages, browser and system details, and any relevant screenshots or logs."
+  }
+]
